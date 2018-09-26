@@ -55,6 +55,6 @@ svg.append("g")
     .call(x_axis);
 	
 $('rect').click(function (){
-	console.log($(this).attr('actualHeight'));
+	console.log('Now we are on the data_analysis branch!');
 })
 	
