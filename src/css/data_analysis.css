@@ -1,7 +1,48 @@
 .bar-chart {
     background-color: #C7D9D9;
-    }
+	margin: auto;
+}
     
 .bar {
      fill: #115D8C;
-     }
+}
+	 
+.container-fluid {
+	height: auto;
+	min-height: 5px;
+}
+
+.bar-chart-container {
+	width: min-content;
+	padding-top: 10px;
+}
+
+.nav-container {
+	background-color: skyblue;
+	align-content: center;
+	height: 50px;
+}
+
+.button-container {
+	width: min-content;
+	height: 100%;
+	margin: auto;
+	vertical-align: middle;
+}
+
+button {
+	background: transparent;
+	border: transparent;
+	border-bottom: 2px transparent solid;
+	vertical-align: middle;
+}
+
+button:hover {
+	cursor: pointer;
+	border-bottom: 2px blue solid;
+}
+
+.nav-btn:active, .nav-btn:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}

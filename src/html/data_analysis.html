@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <meta charset="utf-8"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <script src="../../lib/d3.v4.js"></script>
 <link rel="stylesheet" href="../css/data_analysis.css"><link>
 <head>
+	<div class="row">
+		<nav class="container-fluid nav-container">
+			<div class="button-container">
+				<button type="button" class="nav-btn" id="home">Home</button>
+			</div>
+		</nav>
+	</div>
 </head>
 <body>
-
-<svg class="bar-chart"></svg>
-<!--
-<div class="text_demo"></div>
-<div class="chart"></div>
-<div class="data_set"></div>
--->
-
+	<div class="container-fluid bar-chart-container">
+		<svg class="bar-chart"></svg>
+		<!--
+		<div class="text_demo"></div>
+		<div class="chart"></div>
+		<div class="data_set"></div>
+		-->
+	</div>
 </body>
 
 <script src="../js/data_analysis.js"></script>
