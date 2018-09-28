@@ -55,6 +55,6 @@ svg.append("g")
     .call(x_axis);
 	
 $('rect').click(function (){
-	console.log('Now we are on the data_analysis branch!');
+	console.log('Now we are on the master\'s branch!');
 })
 	
