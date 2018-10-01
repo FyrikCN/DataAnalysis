@@ -1,12 +1,21 @@
 .bar-chart {
-    background-color: #C7D9D9;
+    background-color: rgb(48, 48, 48);
 	margin: auto;
 }
     
-.bar {
-     fill: #115D8C;
+.bars {
+    fill: rgb(76, 179, 210);
 }
-	 
+
+.bars-hovered {
+	fill: rgb(105, 198, 255);
+}
+
+.axis, .axis line, .domain, .tick {
+	stroke: rgb(76, 179, 210);
+	color: rgb(76, 179, 210);
+}
+
 .container-fluid {
 	height: auto;
 	min-height: 5px;
@@ -15,6 +24,10 @@
 .bar-chart-container {
 	width: min-content;
 	padding-top: 10px;
+}
+
+.tip {
+	fill: rgb(72, 72, 72);
 }
 
 .nav-container {
